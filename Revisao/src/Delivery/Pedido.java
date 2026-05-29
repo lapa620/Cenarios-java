@@ -15,7 +15,7 @@ public class Pedido {
     public void adicionar(Produto p){
         listaPedido.add(p);
     }
-
+public void exibir(){
     System.out.println("seu pedido foi");
         int i =0;
         for (Produto p : listaPedido) {
