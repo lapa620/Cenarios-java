@@ -16,10 +16,12 @@ public class Pedido {
         listaPedido.add(p);
     }
 
-    public void exibir(){
-        System.out.println("seu pedido foi");
-            System.out.println(listaPedido);
-
+    System.out.println("seu pedido foi");
+        int i =0;
+        for (Produto p : listaPedido) {
+            System.out.println(listaPedido.get(i));
+            i++;
+        }
     }
 
     public double soma() {
