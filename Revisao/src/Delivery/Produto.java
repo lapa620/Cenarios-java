@@ -19,7 +19,7 @@ public Produto(String nome, int preco){
 
     @Override
     public String toString() {
-        return  "nome: "+nome + " ,preço: "+preco;
+        return  "nome: "+nome + ",preço: "+preco;
     }
 }
 
