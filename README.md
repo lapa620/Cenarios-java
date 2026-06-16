@@ -1,5 +1,6 @@
 SISTEMA DE FAZENDA
 <br>
+
 Situação - Problema 
 
 Você é um Estagiário em desenvolvimento Java e precisa criar um programa de “fazenda virtual” para ouvir o sons de todos os animais 
@@ -36,6 +37,7 @@ Cada veículo possui um tipo de buzina diferente.
 <br>
 SISTEMA DE DELIVERY
 <br>
+
 Situação - Problema
 Você é um Estagiário em desenvolvimento e precisa desenvolver um sistema simples de delivery
 
@@ -51,6 +53,7 @@ Exibir resumo do pedido.
 <br>
 SISTEMA DE ESCOLA
 <br>
+
 Situação - Problema
 Seu Gestor te escalou para fazer parte de uma equipe para desenvolver um sistema escolar.
 
