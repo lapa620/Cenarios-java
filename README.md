@@ -5,6 +5,7 @@ Situação - Problema
 Você é um Estagiário em desenvolvimento Java e precisa criar um programa de “fazenda virtual” para ouvir o sons de todos os animais 
 
 Requisitos Funcionais: 
+
 Ouvir os sons de cada animal; 
 
 Cada animal faz um som diferente. 
@@ -26,6 +27,7 @@ Situação - Problema
 Você é um Estagiário em desenvolvimento Java e precisa criar um sistema para exibir informações sobre veículos.
 
 Requisito Funcional:
+
 Mostrar modelo do veículo; 
 
 Mostrar velocidade máxima; 
@@ -40,6 +42,7 @@ Situação - Problema
 Você é um Estagiário em desenvolvimento e precisa desenvolver um sistema simples de delivery
 
 Requisito Funcional:
+
 Criar pedido;
 
 Adicionar produto;
@@ -56,6 +59,7 @@ Situação - Problema
 Seu Gestor te escalou para fazer parte de uma equipe para desenvolver um sistema escolar.
 
 Requisito Funcional:
+
 Cadastrar alunos;
 
 Cadastrar 4 notas;
@@ -74,6 +78,7 @@ SISTEMA ESTACIONAMENTO
 Vamos desenvolver um sistema de estacionamento???
 
 Requisito Funcional:
+
 Cadastrar veículos;
 
 Informar placa;
@@ -90,6 +95,7 @@ Situação - Problema
 Você foi incluído no time para desenvolver um sistema de petshop.
 
 Requisito Funcional:
+
 Cadastrar animais;
 
 Informar nome do animal;
