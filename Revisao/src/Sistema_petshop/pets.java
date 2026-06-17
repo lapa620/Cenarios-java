@@ -12,52 +12,43 @@ public class pets {
         this.pets = new ArrayList<>();
     }
 
-    public void cadastrar(){
+   public void cadastrar(){
         System.out.println("-----------------------------------");
         System.out.println("Escolha quantos pets cadastrar: ");
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        for(int i =0; i  !=x; i++ ){
 
-            System.out.print(" qual nome do pet: ");
-            String nome = sc.next();
-            System.out.print("Qual a idade dele(informe se é em meses ou anos): ");
-            String idade = sc.nextLine();
-            sc.nextLine();
+       
+        sc.nextLine();
 
+        for(int i = 0; i < x; i++){
 
-            int op=0;
-            System.out.println("Informe a especie");
-            System.out.println("[1] - cachorro");
-            System.out.println("[2] - Gato");
-            System.out.println("[3] - passaro");
-           op = sc.nextInt();
+            System.out.print("Qual o nome do pet: ");
+            String nome = sc.nextLine(); 
+
+            System.out.print("Qual a idade dele (ex: 2 anos): ");
+            String idade = sc.nextLine(); 
+
+            int op = 0;
+            System.out.println("Informe a especie: [1] - cachorro, [2] - Gato, [3] - passaro");
+            op = sc.nextInt();
+            sc.nextLine(); 
+
             switch (op){
                 case 1:
-                    Cachorro pet = new Cachorro(nome, idade);
-                    pets.add(pet);
+                    pets.add(new Cachorro(nome, idade));
                     break;
-
                 case 2:
-                    Gato gato = new Gato(nome, idade);
-                    pets.add(gato);
+                    pets.add(new Gato(nome, idade));
                     break;
-
                 case 3:
-                    Passaro passaro = new Passaro(nome,idade);
-                    pets.add(passaro);
+                    pets.add(new Passaro(nome, idade));
                     break;
-
                 default:
-                    System.out.println("opção invalida");
-
+                    System.out.println("Opção inválida");
             }
-
-
-
         }
     }
-
 
 
 
