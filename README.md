@@ -1,8 +1,7 @@
 SISTEMA DE FAZENDA
 <br>
 
-Situação - Problema 
-
+Situação - Problema
 Você é um Estagiário em desenvolvimento Java e precisa criar um programa de “fazenda virtual” para ouvir o sons de todos os animais 
 
 Requisitos Funcionais: 
@@ -88,7 +87,6 @@ Informar quantidade de veículos cadastrados.
 <br>
 SISTEMA DE PETSHOP<br>
 Situação - Problema
-
 Você foi incluído no time para desenvolver um sistema de petshop.
 
 Requisito Funcional:
