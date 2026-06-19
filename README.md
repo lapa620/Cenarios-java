@@ -108,3 +108,26 @@ Cada animal deve emitir um som diferente;
 
 Permitir visualizar todos os animais cadastrados.
 
+<br>
+SISTEMA LOCADORA
+<br>
+
+Situação - Problema
+
+Tarefa do time é desenvolver um sistema de locadora.
+
+Requisito Funcional:
+
+Cadastrar filmes;
+
+Informar titulo do filme;
+
+Informar gênero;
+
+Informar ano de lançamento;
+
+Exibir catálogo completo;
+
+Pesquisar filme pelo título.
+
+
