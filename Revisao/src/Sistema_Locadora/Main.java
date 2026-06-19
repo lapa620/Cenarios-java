@@ -1,7 +1,5 @@
 package Sistema_Locadora;
 
-import Sistema_estacionamento.Estacionamento;
-
 import java.util.Scanner;
 
 public class Main {
