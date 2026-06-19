@@ -1,133 +1,106 @@
-SISTEMA DE FAZENDA
-<br>
+# 💻 Portfólio de Desafios - Estágio em Desenvolvimento Java
 
-Situação - Problema
-Você é um Estagiário em desenvolvimento Java e precisa criar um programa de “fazenda virtual” para ouvir o sons de todos os animais 
+Este repositório contém um conjunto de pequenos sistemas desenvolvidos para consolidar conceitos de Programação Orientada a Objetos (POO), lógica de programação e manipulação de dados em Java. Cada projeto simula um cenário real do dia a dia de um desenvolvedor.
 
-Requisitos Funcionais: 
+---
 
-Ouvir os sons de cada animal; 
+## 🌾 1. Sistema de Fazenda
 
-Cada animal faz um som diferente. 
+> **Situação-Problema:** Você é um Estagiário em desenvolvimento Java e precisa criar um programa de “fazenda virtual” para ouvir o som de todos os animais.
 
-Classe Animal;
+### 📋 Requisitos Funcionais
+* Ouvir os sons de cada animal;
+* Garantir que cada animal faça um som diferente (Polimorfismo).
 
-Classe Cachorro; 
+### 🏗️ Estrutura de Classes Sugerida
+* `Animal` (Classe base)
+* `Cachorro`
+* `Gato`
+* `Vaca`
+* `Fazendinha` (Classe principal/executável)
 
-Classe Gato; 
+---
 
-Classe Vaca; 
+## 🚗 2. Sistema de Veículos
 
-Classe Fazendinha
+> **Situação-Problema:** Você é um Estagiário em desenvolvimento Java e precisa criar um sistema para exibir informações sobre veículos.
 
-<br>
-SISTEMA DE VEICULOS
-<br>
-Situação - Problema 
-Você é um Estagiário em desenvolvimento Java e precisa criar um sistema para exibir informações sobre veículos.
+### 📋 Requisitos Funcionais
+* Mostrar o **modelo** do veículo;
+* Mostrar a **velocidade máxima** cadastrada;
+* Emitir um tipo de **buzina diferente** para cada tipo de veículo.
 
-Requisito Funcional:
+---
 
-Mostrar modelo do veículo; 
+## 🛵 3. Sistema de Delivery
 
-Mostrar velocidade máxima; 
+> **Situação-Problema:** Você é um Estagiário em desenvolvimento e precisa desenvolver um sistema simples de delivery para gerenciamento de vendas.
 
-Cada veículo possui um tipo de buzina diferente. 
+### 📋 Requisitos Funcionais
+* Criar um novo pedido;
+* Adicionar produtos ao pedido criado;
+* Calcular automaticamente o **valor total** do pedido;
+* Exibir um **resumo detalhado** do pedido na tela.
 
-<br>
-SISTEMA DE DELIVERY
-<br>
+---
 
-Situação - Problema
-Você é um Estagiário em desenvolvimento e precisa desenvolver um sistema simples de delivery
+## 🏫 4. Sistema de Escola
 
-Requisito Funcional:
+> **Situação-Problema:** Seu Gestor te escalou para fazer parte de uma equipe para desenvolver um sistema escolar de monitoramento de notas.
 
-Criar pedido;
+### 📋 Requisitos Funcionais
+* Cadastrar alunos;
+* Informar a **série escolar** do aluno;
+* Cadastrar **4 notas** por aluno;
+* Realizar o cálculo da **média aritmética** das notas;
+* Informar se o aluno foi **aprovado ou reprovado** com base na média;
+* Exibir a lista completa de alunos cadastrados com seus respectivos status.
 
-Adicionar produto;
+---
 
-Calcular valor total;
+## 🅿️ 5. Sistema de Estacionamento
 
-Exibir resumo do pedido.
+> **Situação-Problema:** Vamos desenvolver um sistema de estacionamento para controle de fluxo de automóveis?
 
-<br>
-SISTEMA DE ESCOLA
-<br>
+### 📋 Requisitos Funcionais
+* Cadastrar veículos no pátio;
+* Informar a **placa** do veículo;
+* Informar o **modelo** do veículo;
+* Exibir um relatório com todos os veículos atualmente estacionados;
+* Exibir a **quantidade total** de veículos cadastrados/presentes.
 
-Situação - Problema
-Seu Gestor te escalou para fazer parte de uma equipe para desenvolver um sistema escolar.
+---
 
-Requisito Funcional:
+## 🐾 6. Sistema de Petshop
 
-Cadastrar alunos;
+> **Situação-Problema:** Você foi incluído no time para desenvolver um sistema de gerenciamento de um Petshop.
 
-Cadastrar 4 notas;
+### 📋 Requisitos Funcionais
+* Cadastrar animais na lista de atendimento;
+* Informar o **nome** do animal;
+* Informar a **idade** do animal (tratando texto para aceitar "meses" ou "anos");
+* Permitir a visualização de todos os animais cadastrados;
+* Exibir os dados detalhados de cada animal;
+* Fazer com que cada animal emita um som diferente ao ser exibido.
 
-Informar série escolar;
+---
 
-Realizar média das notas
-;
-Informar se foi aprovado ou reprovado;
+## 🎬 7. Sistema de Locadora
 
-Exibir lista de alunos cadastrados.
+> **Situação-Problema:** A tarefa do time agora é desenvolver um sistema para gerenciamento do catálogo de uma locadora de filmes.
 
-<br>
-SISTEMA ESTACIONAMENTO
-<br>
-Vamos desenvolver um sistema de estacionamento???
+### 📋 Requisitos Funcionais
+* Cadastrar novos filmes;
+* Informar o **título** do filme;
+* Informar o **gênero** (Ação, Comédia, Drama, etc.);
+* Informar o **ano de lançamento**;
+* Exibir o catálogo completo de filmes disponíveis;
+* **Pesquisar um filme específico** através do seu título.
 
-Requisito Funcional:
+---
 
-Cadastrar veículos;
-
-Informar placa;
-
-Informar modelo;
-
-Exibir veículos estacionados;
-
-Informar quantidade de veículos cadastrados.
-
-<br>
-SISTEMA DE PETSHOP<br>
-Situação - Problema
-Você foi incluído no time para desenvolver um sistema de petshop.
-
-Requisito Funcional:
-
-Cadastrar animais;
-
-Informar nome do animal;
-
-Informar idade do animal;
-
-Exibir os dados dos animais cadastrados;
-
-Cada animal deve emitir um som diferente;
-
-Permitir visualizar todos os animais cadastrados.
-
-<br>
-SISTEMA LOCADORA
-<br>
-
-Situação - Problema
-
-Tarefa do time é desenvolver um sistema de locadora.
-
-Requisito Funcional:
-
-Cadastrar filmes;
-
-Informar titulo do filme;
-
-Informar gênero;
-
-Informar ano de lançamento;
-
-Exibir catálogo completo;
-
-Pesquisar filme pelo título.
-
-
+### 🛠️ Tecnologias Utilizadas nos Projetos
+* **Linguagem:** Java
+* **Paradigma:** Orientação a Objetos (Herança, Polimorfismo, Encapsulamento)
+* **Entrada de Dados:** `java.util.Scanner`
+* **Estrutura de Dados:** `java.util.ArrayList`
