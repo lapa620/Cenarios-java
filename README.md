@@ -12,13 +12,6 @@ Este repositório contém um conjunto de pequenos sistemas desenvolvidos para co
 * Ouvir os sons de cada animal;
 * Garantir que cada animal faça um som diferente (Polimorfismo).
 
-### 🏗️ Estrutura de Classes Sugerida
-* `Animal` (Classe base)
-* `Cachorro`
-* `Gato`
-* `Vaca`
-* `Fazendinha` (Classe principal/executável)
-
 ---
 
 ## 🚗 2. Sistema de Veículos
